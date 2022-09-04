@@ -27,7 +27,7 @@ const App = () => {
             </h1>
            <div>
                <div className="container">
-                   <ImgCrop shape='round' rotate modalTitle={'Добавить фото'}>
+                   <ImgCrop  rotate modalTitle={'Добавить фото'}>
                        <Upload
                            customRequest={uploadImage}
                            listType="picture-card">
